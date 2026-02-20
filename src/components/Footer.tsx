@@ -22,7 +22,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <img src={logo} alt="BookPrinters.in" className="h-14 w-auto object-contain" />
+            <img src={logo} alt="BookPrinters.in" className="h-24 w-auto object-contain" />
             <p className="text-white/70 text-sm leading-relaxed">
               Your trusted printing partner in Delhi. High quality book printing, Xerox, digital printing and binding services.
             </p>
