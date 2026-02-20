@@ -170,8 +170,8 @@ export default function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white ${
         isScrolled 
-          ? 'shadow-md py-2' 
-          : 'shadow-sm py-4'
+          ? 'shadow-md py-3.5' 
+          : 'shadow-sm py-5'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -181,7 +181,7 @@ export default function Navbar() {
             <img
               src={logo}
               alt="BookPrinters.in"
-              className="h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              className="h-20 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
             />
           </Link>
 
