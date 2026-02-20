@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { BookOpen, Phone, Mail, MapPin, Instagram, Facebook, Twitter, ArrowRight } from 'lucide-react';
-import logo from '@/assets/logo.jpeg';
+import logo from '@/assets/logo3.jpeg';
 
 export default function Footer() {
   return (
